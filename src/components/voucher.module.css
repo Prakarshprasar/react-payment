@@ -1,0 +1,46 @@
+.x>p{
+    font-size: 23px;
+    
+    /* background-color: brown; */
+}
+.x{
+    width: 40%;
+    line-height: 60px;
+}
+.x>h1{
+    font-size: 45px;
+    line-height: 80px;
+}
+.x>button{
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+.main{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 200px; */
+    width: 50%;
+    /* margin: auto; */
+    padding: 15px 35px 25px 35px ;
+}
+.logo>img:nth-child(1){
+    width: 140px;
+}
+.logo>img:nth-child(2){
+    width: 50px;
+}
+.logo{
+    margin: 25px 0px ;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
